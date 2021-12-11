@@ -14,6 +14,10 @@
   display: flex;
   justify-content: end;
 }
+.fl-jc-start {
+  display: flex;
+  justify-content: start;
+}
 .fl {
   display: flex;
 }
@@ -47,6 +51,7 @@
   display: flex;
   align-items: flex-end;
 }
+
 .blue {
   background-color: #4eb2f7;
 }

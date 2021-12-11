@@ -16,11 +16,17 @@
 </head>
 <body>
     <header>
-        <div class="wrap fl-jc-sb fl-ai-c">
+        <div class="wrap fl-jc-sb fl-ai-fs">
             <div class="logo">
-                <p class="text-logo"><span>h</span>legals</p>
-                <p class="logo-discr">Юридична компанія</p>
+                <div class="leng-hide fl-jc-sb">
+                    <a class="lenguage active fl-c " href="#">УК</a>
+                    <a class="lenguage fl-c" href="#">РУ</a>
+                    <a class="lenguage fl-c" href="#">EN</a>
+                </div>
+                <a class="disctop" href="#"><img src="./img/page1/header/Logo.png" alt="logo"></a>
+                <a class="mob" href="./index.html"><img src="./img/page1/header/Logo-mob.png" alt="logo"></a>
             </div>
+            
             <div class="header-menu fl-d-colmn fl-jc-center">
                 <div class="contacts fl-d-row fl-jc-sa  fl-ai-c">
                     <div class="leng fl-jc-sb">
@@ -28,22 +34,26 @@
                         <a class="lenguage fl-c" href="#">РУ</a>
                         <a class="lenguage fl-c" href="#">EN</a>
                     </div>
-                    <div class="adress fl-ai-c"><a href="#" class="adres ">Одеса, Адміральський пр., 3</a></div>
+                    <div class="adress fl-ai-c"><a href="https://goo.gl/maps/WmwRgmuZ5fiGAHcq8" class="adres ">Одеса, Адміральський пр., 3</a></div>
                     <div class="numb fl-ai-c"><a href="#" class="tel fl-ai-c"> +38 (050) 390 15 91</a></div>
     
-                    <div class="soc"><img src="./img/page1/header/facebook.png" alt="facebook"></div>
+                    <div class="soc"><a href="https://www.facebook.com/Hillel.IT.School"><img src="./img/page1/header/facebook.png" alt="facebook"></a></div>
                 </div>
                 <nav class="header-links">
                     <ul class="fl-d-row fl-jc-end fl-ai-c">
-                        <li><a href="#">о нас</a></li>
-                        <li><a href="#">послуги</a></li>
-                        <li><a href="#">команда</a></li>
-                        <li><a href="#">публікації</a></li>
-                        <li><a href="#">контакти</a></li>
+                        <li><a href="./pages/aboutUs2.html">о нас</a></li>
+                        <li><a href="./pages/sevices.html">послуги</a></li>
+                        <li><a href="./pages/team.html">команда</a></li>
+                        <li><a href="./pages/publication.html">публікації</a></li>
+                        <li><a href="./pages/contacts.html">контакти</a></li>
                     </ul>
                 </nav>
             </div>
-            <div class="burger"><img src="./img/page1/Hamburger.png" alt=""></div>
+            
+            <div class="burger fl-d-colmn ">
+                <a href="#" class="tel fl-ai-c"> +38 (050) 390 15 91</a>
+                <img class="burger-icon"  src="./img/page1/Hamburger.png" alt="">
+            </div>
         </div>
     </header>
 <section class="sect-1">
@@ -61,152 +71,131 @@
     </div>
 </section>
 <section class="sect-2">
-    <div class="wrap ">
-        <div class="menu d-flex align-items-start">
-            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home"
-                    type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Послідовні</button>
-                <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile"
-                    type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Клієнтоорієнтовані</button>
-                <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages"
-                    type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Інноваційні</button>
-                <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings"
-                    type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Бізнес-орієнтовані юристи</button>
-            </div>
-            <div class="tab-content" id="v-pills-tabContent">
-                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+    <div class="wrap0">
+        <div class="menu">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+                        role="tab" aria-controls="home" aria-selected="true"><span class="sp">Послідовні</span></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
+                        role="tab" aria-controls="profile" aria-selected="false"><span
+                            class="sp">Клієнтоорієнтовані</span></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
+                        role="tab" aria-controls="contact" aria-selected="false"><span
+                            class="sp">Інноваційні</span></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="contactt-tab" data-bs-toggle="tab" data-bs-target="#contactt" type="button"
+                        role="tab" aria-controls="contactt" aria-selected="false"><span class="sp">Бізнес-орієнтовані
+                            юристи</span></button>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <p class="sp-hide">Послідовні</p>
                     <p class="text">Перевертаємо уявлення про юридичні послуги 1</p>
-                    <p>Консолідуючи багаторічний досвід і практику, юристи компанії супроводжують складні проекти і досягають
-                    прийняття ряду
-                    важливих для галузі рішень. Багато з них формують практику застосування морського права в Україні.</p>
+                    <p>Консолідуючи багаторічний досвід і практику, юристи компанії супроводжують складні проекти і
+                        досягають
+                        прийняття ряду
+                        важливих для галузі рішень. Багато з них формують практику застосування морського права в Україні.
+                    </p>
                 </div>
-                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <p class="sp-hide">Клієнтоорієнтовані</p>
                     <p class="text">Перевертаємо уявлення про юридичні послуги 2</p>
-                    <p>Консолідуючи багаторічний досвід і практику, юристи компанії супроводжують складні проекти і досягають
+                    <p>Консолідуючи багаторічний досвід і практику, юристи компанії супроводжують складні проекти і
+                        досягають
                         прийняття ряду
-                        важливих для галузі рішень. Багато з них формують практику застосування морського права в Україні.</p></div>
-                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                <p class="text">Перевертаємо уявлення про юридичні послуги 3</p>
-                <p>Консолідуючи багаторічний досвід і практику, юристи компанії супроводжують складні проекти і досягають
-                    прийняття ряду
-                    важливих для галузі рішень. Багато з них формують практику застосування морського права в Україні.</p>
+                        важливих для галузі рішень. Багато з них формують практику застосування морського права в Україні.
+                    </p>
                 </div>
-                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                    <p class="sp-hide">Інноваційні</p>
+                    <p class="text">Перевертаємо уявлення про юридичні послуги 3</p>
+                    <p>Консолідуючи багаторічний досвід і практику, юристи компанії супроводжують складні проекти і
+                        досягають
+                        прийняття ряду
+                        важливих для галузі рішень. Багато з них формують практику застосування морського права в Україні.
+                    </p>
+                </div>
+                <div class="tab-pane fade" id="contactt" role="tabpanel" aria-labelledby="contactt-tab">
+                    <p class="sp-hide">Бізнес-орієнтовані юристи</p>
                     <p class="text">Перевертаємо уявлення про юридичні послуги 4</p>
-                    <p>Консолідуючи багаторічний досвід і практику, юристи компанії супроводжують складні проекти і досягають
+                    <p>Консолідуючи багаторічний досвід і практику, юристи компанії супроводжують складні проекти і
+                        досягають
                         прийняття ряду
-                        важливих для галузі рішень. Багато з них формують практику застосування морського права в Україні.</p>
+                        важливих для галузі рішень. Багато з них формують практику застосування морського права в Україні.
+                    </p>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="wrap-carousel">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 4"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <p class="text-carousel-1">Послідовні</p>
-                    <p class="text-carousel-2">Перевертаємо уявлення про юридичні послуги 1</p>
-                    <p class="text-carousel-3">Консолідуючи багаторічний досвід і практику, юристи компанії супроводжують складні проекти і досягають прийняття ряду
-                    важливих для галузі рішень. Багато з них формують практику застосування морського права в Україні.</p>
-                </div>
-                <div class="carousel-item">
-                    <p class="text-carousel-1">Клієнтоорієнтовані</p>
-                    <p class="text-carousel-2">Перевертаємо уявлення про юридичні послуги 2</p>
-                    <p class="text-carousel-3">Консолідуючи багаторічний досвід і практику, юристи компанії супроводжують складні проекти і
-                        досягають прийняття ряду
-                        важливих для галузі рішень. Багато з них формують практику застосування морського права в Україні.</p>
-                </div>
-                <div class="carousel-item">
-                    <p class="text-carousel-1">Інноваційні</p>
-                    <p class="text-carousel-2">Перевертаємо уявлення про юридичні послуги 3</p>
-                    <p class="text-carousel-3">Консолідуючи багаторічний досвід і практику, юристи компанії супроводжують складні проекти і
-                        досягають прийняття ряду
-                        важливих для галузі рішень. Багато з них формують практику застосування морського права в Україні.</p>
-                </div>
-                <div class="carousel-item">
-                    <p class="text-carousel-1">Бізнес-орієнтовані юристи</p>
-                    <p class="text-carousel-2">Перевертаємо уявлення про юридичні послуги 4</p>
-                    <p class="text-carousel-3">Консолідуючи багаторічний досвід і практику, юристи компанії супроводжують складні
-                        проекти і
-                        досягають прийняття ряду
-                        важливих для галузі рішень. Багато з них формують практику застосування морського права в Україні.</p>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+    
     </div>
     <div class="wrap-services">
-        <a href="#" class="menu-item">послуги<img src="./img/page1/sect-2/arrow.png" alt="arrow"></a>
-        <p class="gradient">Що ми вміємо робити краще за інших?</p>
-        <div class="wrap0 fl-d-colmn ">
-            <div class="item ">
-                <div class="mobile">
-                    <div class="icon"><img src="./img/page1/sect-2/icon1.png" alt="icon"></div>
-                    <p class="icon-text-top">IT та електронна комерція</p>
+            <a href="./pages/sevices.html" class="menu-item">послуги<img src="./img/page1/sect-2/arrow.png" alt="arrow"></a>
+            <p class="gradient">Що ми вміємо робити краще за інших?</p>
+            <div class="wrap0 fl-d-colmn ">
+                <div class="item ">
+                    <div class="mobile">
+                        <a href="./pages/sevices.html"><div class="icon"><img src="./img/page1/sect-2/icon1.png" alt="icon"></div></a>
+                        <a href="./pages/sevices.html"><p class="icon-text-top">IT та електронна комерція</p></a>
+                    </div>
+                    <p class="icon-text">Нескінчений потік договорів, податкові питання, трудові відносини, корпоративні папери —
+                        юридична робота відволікає вас
+                        від ведення бізнесу. Але роботи не так вже й багато, щоб наймати інхауз-юриста.</p>
                 </div>
-                <p class="icon-text">Нескінчений потік договорів, податкові питання, трудові відносини, корпоративні папери — юридична робота відволікає вас
-                від ведення бізнесу. Але роботи не так вже й багато, щоб наймати інхауз-юриста.</p>
-            </div>
-            <div class="item ">
-                <div class="mobile">
-                    <div class="icon"><img src="./img/page1/sect-2/icon2.png" alt="icon"></div>
-                    <p class="icon-text-top">Комплексний щоденний</br>юридичний супровід</p>
+                <div class="item ">
+                    <div class="mobile">
+                        <a href="./pages/sevices.html"><div class="icon"><img src="./img/page1/sect-2/icon2.png" alt="icon"></div></a>
+                        <a href="./pages/sevices.html"><p class="icon-text-top">Комплексний щоденний</br>юридичний супровід</p></a>
+                    </div>
+                    <p class="icon-text">До того ж, з часом робота стане однотипною і нецікавою для штатного юриста. А ще ми добре
+                        знаємо, як важко в Україні
+                        знайти хорошого кандидата з досвідом у сфері інформаційних технологій.</p>
                 </div>
-                <p class="icon-text">До того ж, з часом робота стане однотипною і нецікавою для штатного юриста. А ще ми добре знаємо, як важко в Україні
-                знайти хорошого кандидата з досвідом у сфері інформаційних технологій.</p>
-            </div>
-            <div class="item ">
-                <div class="mobile">
-                    <div class="icon"><img src="./img/page1/sect-2/icon3.png" alt="icon"></div>
-                    <p class="icon-text-top">Структуризація корпоративних</br> відносин</p>
+                <div class="item ">
+                    <div class="mobile">
+                        <a href="./pages/sevices.html"><div class="icon"><img src="./img/page1/sect-2/icon3.png" alt="icon"></div></a>
+                        <a href="./pages/sevices.html"><p class="icon-text-top">Структуризація корпоративних</br> відносин</p></a>
+                    </div>
+                    <p class="icon-text">Замість просто надавати юридичні послуги, ми закріпимо юриста або цілу команду, які
+                        впишуться в повсякденне життя вашої
+                        компанії.</p>
                 </div>
-                <p class="icon-text">Замість просто надавати юридичні послуги, ми закріпимо юриста або цілу команду, які впишуться в повсякденне життя вашої
-                компанії.</p>
-            </div>
-            <div class="item ">
-                <div class="mobile">
-                    <div class="icon"><img src="./img/page1/sect-2/icon4.png" alt="icon"></div>
-                    <p class="icon-text-top">Побудовa договірних відносин</p>
+                <div class="item ">
+                    <div class="mobile">
+                        <a href="./pages/sevices.html"><div class="icon"><img src="./img/page1/sect-2/icon4.png" alt="icon"></div></a>
+                        <a href="./pages/sevices.html"><p class="icon-text-top">Побудовa договірних відносин</p></a>
+                    </div>
+                    <p class="icon-text">Раз на тиждень, чи тиждень на місяць у вас під боком є ваш власний юрист. Будь-хто в
+                        компанії може впіймати його біля
+                        кавоварки і просто поговорити про поточні справи замість очікування статусу update.</p>
                 </div>
-                <p class="icon-text">Раз на тиждень, чи тиждень на місяць у вас під боком є ваш власний юрист. Будь-хто в компанії може впіймати його біля
-                кавоварки і просто поговорити про поточні справи замість очікування статусу update.</p>
-            </div>
-            <div class="item ">
-                <div class="mobile">
-                    <div class="icon"><img src="./img/page1/sect-2/icon5.png" alt="icon"></div>
-                    <p class="icon-text-top">Захист бізнесу, інтелектуальної</br> власності</p>
+                <div class="item ">
+                    <div class="mobile">
+                        <a href="./pages/sevices.html"><div class="icon"><img src="./img/page1/sect-2/icon5.png" alt="icon"></div></a>
+                        <a href="./pages/sevices.html"><p class="icon-text-top">Захист бізнесу, інтелектуальної</br> власності</p></a>
+                    </div>
+                    <p class="icon-text">А весь інший час він працюватиме над новими різноплановими проектами, тому вже точно не
+                        зупиниться в професійному
+                        розвитку. Так чи інакше, на вас працюватиме весь Axon Partners замість корпоративного юриста.</p>
                 </div>
-                <p class="icon-text">А весь інший час він працюватиме над новими різноплановими проектами, тому вже точно не зупиниться в професійному
-                розвитку. Так чи інакше, на вас працюватиме весь Axon Partners замість корпоративного юриста.</p>
-            </div>
-            <div class="item ">
-                <div class="mobile">
-                    <div class="icon"><img src="./img/page1/sect-2/icon6.png" alt="icon"></div>
-                    <p class="icon-text-top">Захист бізнесу, інтелектуальної власності</p>
+                <div class="item ">
+                    <div class="mobile">
+                        <a href="./pages/sevices.html"><div class="icon"><img src="./img/page1/sect-2/icon6.png" alt="icon"></div></a>
+                        <a href="./pages/sevices.html"><p class="icon-text-top">Захист бізнесу, інтелектуальної власності</p></a>
+                    </div>
+                    <p class="icon-text">Невелика компанія, середнього розміру, чи вже лідер ринку? Локальний бізнес або
+                        транснаціональна компанія? Маєте власний
+                        юридичний відділ, чи ні?</p>
                 </div>
-                <p class="icon-text">Невелика компанія, середнього розміру, чи вже лідер ринку? Локальний бізнес або транснаціональна компанія? Маєте власний
-                юридичний відділ, чи ні?</p>
             </div>
-        </div>
     </div>
+    
         
 </section>
 <section class="shedow">
@@ -214,76 +203,76 @@
 <section class="sect-4">
     <div class="wrap">
       <div class="wrap-slider">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item   active">
-                    <div class="carousel-cont ">
-                        <div class="photo-card">
-                            <img src="./img/page1/sect-4/alex.png" alt="Alex">
-                           
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item   active">
+                        <div class="carousel-cont ">
+                            <div class="photo-card">
+                                <img src="./img/page1/sect-4/alex.png" alt="Alex">
+                            
+                            </div>
+                            
+                            <div class="photo-card-discription">
+                                <a href="./pages/team.html" class="card-text-1">команда 1 <img src="./img/page1/sect-4/arrow.png" alt="arrow"></a>
+                                <p class="card-text-2">Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть
+                                    у ситуаціях, коли більшість
+                                    безсилі.</p>
+                                <p class="discription-card-text card-text-3">Олександр Олександровський</br>Керуючий партнер</p>
+                            </div>
                         </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-cont ">
+                            <div class="photo-card">
+                                <img src="./img/page1/sect-4/alex.png" alt="Alex">
+                            
+                            </div>
                         
-                        <div class="photo-card-discription">
-                            <a href="#" class="card-text-1">команда 1 <img src="./img/page1/sect-4/arrow.png" alt="arrow"></a>
-                            <p class="card-text-2">Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть
-                                у ситуаціях, коли більшість
-                                безсилі.</p>
-                            <p class="discription-card-text card-text-3">Олександр Олександровський</br>Керуючий партнер</p>
+                            <div class="photo-card-discription">
+                                <a href="./pages/team.html" class="card-text-1">команда 2 <img src="./img/page1/sect-4/arrow.png" alt="arrow"></a>
+                                <p class="card-text-2">Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу,
+                                    навіть
+                                    у ситуаціях, коли більшість
+                                    безсилі.</p>
+                                <p class="discription-card-text card-text-3">Олександр Олександровський</br>Керуючий партнер</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-cont ">
+                            <div class="photo-card">
+                                <img src="./img/page1/sect-4/alex.png" alt="Alex">
+                            </div>
+                        
+                            <div class="photo-card-discription">
+                                <a href="./pages/team.html" class="card-text-1">команда 3 <img src="./img/page1/sect-4/arrow.png" alt="arrow"></a>
+                                <p class="card-text-2">Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу,
+                                    навіть
+                                    у ситуаціях, коли більшість
+                                    безсилі.</p>
+                                <p class="discription-card-text card-text-3">Олександр Олександровський</br>Керуючий партнер</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="carousel-cont ">
-                        <div class="photo-card">
-                            <img src="./img/page1/sect-4/alex.png" alt="Alex">
-                           
-                        </div>
-                    
-                        <div class="photo-card-discription">
-                            <a href="#" class="card-text-1">команда 2 <img src="./img/page1/sect-4/arrow.png" alt="arrow"></a>
-                            <p class="card-text-2">Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу,
-                                навіть
-                                у ситуаціях, коли більшість
-                                безсилі.</p>
-                            <p class="discription-card-text card-text-3">Олександр Олександровський</br>Керуючий партнер</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="carousel-cont ">
-                        <div class="photo-card">
-                            <img src="./img/page1/sect-4/alex.png" alt="Alex">
-                        </div>
-                    
-                        <div class="photo-card-discription">
-                            <a href="#" class="card-text-1">команда 3 <img src="./img/page1/sect-4/arrow.png" alt="arrow"></a>
-                            <p class="card-text-2">Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу,
-                                навіть
-                                у ситуаціях, коли більшість
-                                безсилі.</p>
-                            <p class="discription-card-text card-text-3">Олександр Олександровський</br>Керуючий партнер</p>
-                        </div>
-                    </div>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-        </div>
+    </div>
     </div>
     
 </section>
@@ -347,8 +336,8 @@
 </section>
 <section class="sect-7">
     <div class="wrap">
-        <a href="#" class="text-1">Публікації <img src="./img/page1/sect-2/arrow.png" alt=""></a>
-        <a href="#" class="text-2">Нам э що розказати </a>
+        <a href="./pages/publication.html" class="text-1">Публікації <img src="./img/page1/sect-4/arrow.png" alt=""></a>
+        <a href="./pages/publication.html" class="text-2">Нам э що розказати </a>
         <div class="block">
             <div class="col-1">
                 <div class="cell">
@@ -380,11 +369,11 @@
                             <a href="#">Equity associate</a>
                             <p>22 квітня</p>
                         </div>
-                        <p class="text-disc"></p>На проектах я джун. При цьому я співвласник юридичної фірми. Як це відбулося. Перед вступом батьки мені казали, що якщо
+                        <p class="text-disc">На проектах я джун. При цьому я співвласник юридичної фірми. Як це відбулося. Перед вступом батьки мені казали, що якщо
                         буду…</p>
                     </div>
                 </div>
-                <div class="cell">
+                <div class="cell hide">
                     <img src="./img/page1/sect-7/image3.png">
                     <div class="content">
                         <div class="top">
@@ -422,10 +411,10 @@
         <div class="block-1">
             <div class="row1">
                 <p>Одеса, Адміральський пр., 3</p>
-                <a class="map-link" href="#">Подивитися на мапі</a>
+                <a class="map-link" href="https://goo.gl/maps/WmwRgmuZ5fiGAHcq8">Подивитися на мапі</a>
             </div>
             <div class="row2 ">
-                <img src="./img/page1/facebook.png" alt="">
+                <a href="https://www.facebook.com/Hillel.IT.School"><img src="./img/page1/facebook.png" alt=""></a>
                 <a class="numb" href="#">+38 (050) 390 15 91</a>
                 <a class="mail" href="#">contact@hlegals.net</a>
             </div>
